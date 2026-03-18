@@ -1,0 +1,28 @@
+{
+  "name": "account-management-system",
+  "version": "1.0.0",
+  "description": "Node.js conversion of COBOL Account Management System for student accounts",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js",
+    "test": "jest --verbose"
+  },
+  "keywords": [
+    "account-management",
+    "cobol-migration",
+    "student-accounts"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "devDependencies": {
+    "jest": "^30.3.0"
+  }
+}
